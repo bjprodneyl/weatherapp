@@ -1,0 +1,125 @@
+test({
+  'cnt': 3,
+  'list': [
+    {
+      'coord': {
+        'lon': - 104.82,
+        'lat': 38.83
+      },
+      'sys': {
+        'type': 1,
+        'id': 1958,
+        'message': 0.0063,
+        'country': 'US',
+        'sunrise': 1503923114,
+        'sunset': 1503970481
+      },
+      'weather': [
+        {
+          'id': 803,
+          'main': 'Clouds',
+          'description': 'broken clouds',
+          'icon': '04n'
+        }
+      ],
+      'main': {
+        'temp': 61.84,
+        'pressure': 1030,
+        'humidity': 63,
+        'temp_min': 55.4,
+        'temp_max': 66.2
+      },
+      'visibility': 16093,
+      'wind': {
+        'speed': 14.99,
+        'deg': 170
+      },
+      'clouds': {
+        'all': 75
+      },
+      'dt': 1503901101,
+      'id': 5417598,
+      'name': 'Colorado Springs'
+    },
+    {
+      'coord': {
+        'lon': - 74.01,
+        'lat': 40.71
+      },
+      'sys': {
+        'type': 1,
+        'id': 1969,
+        'message': 0.01,
+        'country': 'US',
+        'sunrise': 1503915578,
+        'sunset': 1503963228
+      },
+      'weather': [
+        {
+          'id': 800,
+          'main': 'Clear',
+          'description': 'clear sky',
+          'icon': '01n'
+        }
+      ],
+      'main': {
+        'temp': 61.45,
+        'pressure': 1024,
+        'humidity': 63,
+        'temp_min': 51.8,
+        'temp_max': 69.8
+      },
+      'visibility': 16093,
+      'wind': {
+        'speed': 6.62,
+        'deg': 113.502
+      },
+      'clouds': {
+        'all': 1
+      },
+      'dt': 1503901101,
+      'id': 5128581,
+      'name': 'New York'
+    },
+    {
+      'coord': {
+        'lon': 139.69,
+        'lat': 35.69
+      },
+      'sys': {
+        'type': 1,
+        'id': 7612,
+        'message': 0.0696,
+        'country': 'JP',
+        'sunrise': 1503864611,
+        'sunset': 1503911648
+      },
+      'weather': [
+        {
+          'id': 803,
+          'main': 'Clouds',
+          'description': 'broken clouds',
+          'icon': '04d'
+        }
+      ],
+      'main': {
+        'temp': 85.26,
+        'pressure': 1012,
+        'humidity': 66,
+        'temp_min': 82.4,
+        'temp_max': 87.8
+      },
+      'visibility': 10000,
+      'wind': {
+        'speed': 8.05,
+        'deg': 150
+      },
+      'clouds': {
+        'all': 75
+      },
+      'dt': 1503901101,
+      'id': 1850147,
+      'name': 'Tokyo'
+    }
+  ]
+})
