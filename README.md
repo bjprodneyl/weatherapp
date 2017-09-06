@@ -1,31 +1,21 @@
-<<<<<<< HEAD
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
+
+ Welcome to my weather app
     ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to Cloud9 IDE!
+Hi there! Welcome to Rodney's Weather App!
 
-To get you started, we included a small hello world application.
+I plan to make several versions of this weather app based on various javascrpt libraries. 
 
-1) Open the hello-world.html file
+1) Weather App 1.0 - 1st version is jQuery powered
 
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
+2) Weather App 1.0 - 1st version is Vanilla Javascript(ES2016) powered
 
 
-## Support & Documentation
+3) Weather App 1.0 - 1st version is VueJS powered
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
-=======
-# weatherapp
-Weather App - 1st version is jQuery powered
->>>>>>> origin/master
+So in the build out of this 1st version of the app. I focused on jQuery based solution.
+There were a few hurdles I had to overcome with CORS and cross domain security in the 
+browser, but once I resolved that, it was simply a matter of securing blocks of time to
+flush out the logic. Moving forward I expect to make the display of all the days of the 
+individual forecasts dynamic, as well as allow the user to add and remove cities.

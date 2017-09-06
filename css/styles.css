@@ -1,0 +1,35 @@
+.municipality {
+    background: gainsboro;
+}
+
+.localForecast {
+    background-color: whitesmoke;    
+}
+
+.municipality b,
+.municipality .todayWthr,
+.municipality .currentTemp {
+    display: inline-block;
+    padding: 4px 4px 4px 0;
+    min-width: 80px;
+    text-align: center;
+}
+
+.forecastDay, 
+.foreCastDesc, 
+.foreCastHiLow {
+    display: inline-block;
+    padding: 4px 4px 4px 0;
+    min-width: 75px;
+    text-align: center;
+}
+
+.localForecast {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.foreCastHiLow {
+    font-size: x-small;
+}
